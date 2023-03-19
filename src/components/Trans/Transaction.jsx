@@ -12,7 +12,7 @@ export const Transaction = ({ transaction: { type, amount, currency } }) => {
 };
 
 Transaction.propTypes = {
-  items: PropTypes.shape({
+  transaction: PropTypes.shape({
     id: PropTypes.string.isRequired,
     type: PropTypes.string.isRequired,
     amount: PropTypes.string.isRequired,

@@ -49,6 +49,7 @@
   display: block;
   text-transform: capitalize;
   font-size: 14px;
+  color: red;
 }
 .label svg {
   width: 30px;
